@@ -59,8 +59,8 @@ while running:
     screen.blit(bomb_image, (bomb_x, bomb_y))
 
     #安全地帯の黄色の枠
-    pygame.draw.rect(background,(255,241,0),(555,170,189,240))
-    pygame.draw.rect(background,(255,241,0),(24,170,190,240))
+    pygame.draw.rect(background,(255,241,0),(555,170,189,240)) # (555, 170)(744, 410)
+    pygame.draw.rect(background,(255,241,0),(24,170,190,240)) # (24, 170)(214, 410)
 
     #安全地帯の黒と赤の四角
     pygame.draw.rect(background,(0,0,0),(575,190,170,200))
